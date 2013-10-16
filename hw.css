@@ -1,0 +1,152 @@
+body{
+  width:100%;
+  background-image: url('http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/background.png');
+  background-repeat: repeat;
+  font-size:0;
+  margin-top:0;
+}
+
+div#body{
+  width:100%;
+  margin-top:0;
+  font-size:14px;
+}
+
+div.container{
+  text-align:center;
+}
+
+header.top-bar{
+  width:100%;
+  max-height:70px;
+  overflow-y:hidden;
+}
+
+header.top-bar>img{
+  width:100%;
+  height:100%;
+}
+
+div#title{}
+
+div#main{
+  text-align:left;
+  height:90%;
+}
+
+div#content{
+  width:85%;
+  margin-left:7%;
+  margin-right:7%;
+  border: 5px solid #74787c;
+  font-size:0;
+}
+
+div#commet{
+  display:inline-block;
+  width:79%;
+  vertical-align:top;
+  font-size:14px;
+}
+
+div#other{
+  display:inline-block;
+  width:21%;
+  vertical-align:top;
+  background-color:#5c7a29;
+  font-size:14px;
+  padding-bottom:0;
+}
+
+header#rotten{
+  width:100%;
+  background-image:url('http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/rottenbackground.png');
+  background-repeat:repeat-x;
+}
+
+header#rotten>img{
+  display:inline-block;
+  margin:0;
+  vertical-align:top;
+}
+
+header#rotten>h2{
+  display:inline-block;
+  color:red;
+  font-size:80px;
+  margin:0;
+  vertical-align:top;
+}
+
+header#rotten>p{
+  display:inline-block;
+  vertical-align:top;
+  margin-top:53px;
+  margin-left:4px;
+}
+
+div#commit-fld{
+  padding:5%;
+  padding-bottom:0;
+  width:100%;
+}
+
+div.line{
+  width:90%;
+  vertical-align:top;
+}
+
+div.col{
+  height:100%;
+  width:45%;
+  display:inline-block;
+  vertical-align:top;
+}
+
+div.atc{
+  border: 3px solid #74787c;
+  width:90%;
+  height:100%;
+  background-color:#a3cf62;
+  padding:5px;
+  min-height:50px;
+  font-size:15px;
+}
+
+div.atc>img{
+  float:left;
+  margin-top:5px;
+}
+
+div.atc>q{
+  display:inline;
+  font-weight:bold;
+}
+
+div#footbar{
+  padding-top:0;
+  max-height:50px;
+  background-color:#5c7a29;
+  font-size:14px;
+}
+
+div#footbar>p{
+  margin:0;
+}
+
+div.writer{
+  margin-top:10px;
+  margin-bottom:30px;
+}
+
+div.critic{
+  display:inline-block;
+}
+
+div.critic>p{
+  margin:2px;
+}
+
+div.critic>p:last-child{
+  font-style:italic;
+}
