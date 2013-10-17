@@ -35,27 +35,28 @@ div#main{
 }
 
 div#content{
-  width:85%;
-  margin-left:7%;
-  margin-right:7%;
+  width:70%;
+  margin-left:15%;
+  margin-right:15%;
   border: 5px solid #74787c;
   font-size:0;
 }
 
 div#commet{
   display:inline-block;
-  width:79%;
+  width:74%;
   vertical-align:top;
   font-size:14px;
 }
 
 div#other{
   display:inline-block;
-  width:21%;
+  width:26%;
   vertical-align:top;
   background-color:#5c7a29;
   font-size:14px;
   padding-bottom:0;
+  overflow-x:hidden;
 }
 
 header#rotten{
@@ -92,13 +93,13 @@ div#commit-fld{
 }
 
 div.line{
-  width:90%;
+  width:95%;
   vertical-align:top;
 }
 
 div.col{
   height:100%;
-  width:45%;
+  width:48%;
   display:inline-block;
   vertical-align:top;
 }
@@ -107,10 +108,10 @@ div.atc{
   border: 3px solid #74787c;
   width:90%;
   height:100%;
-  background-color:#a3cf62;
+  background-color:#e1d697;
   padding:5px;
   min-height:50px;
-  font-size:15px;
+  font-size:14px;
 }
 
 div.atc>img{
@@ -141,6 +142,7 @@ div.writer{
 
 div.critic{
   display:inline-block;
+  font-size:13px;
 }
 
 div.critic>p{
@@ -149,4 +151,27 @@ div.critic>p{
 
 div.critic>p:last-child{
   font-style:italic;
+}
+
+div#btn-fld{
+  position:fixed;
+  bottom:5px;
+  right:15px;
+}
+
+div#btn-fld>a{
+  display:block;
+}
+
+dl{
+  margin-left:10px;
+}
+
+dt{
+  font-weight:bold;
+}
+
+dd{
+  font-size:7px;
+  padding-bottom:7px;
 }
